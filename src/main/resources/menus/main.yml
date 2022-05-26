@@ -1,0 +1,49 @@
+Inventory:
+  title: 'Vender'
+  size: 27
+  items:
+    1:
+      action: SELL
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWZhNzU5OTVjZTUzYmQzNjllZDczNjE1YmYzMjNlMTRhOWNkNzc4OGNhNWFjYjY1YjBiMWFmNTY0NWRkZDA5MSJ9fX0=
+      name: '&aVender'
+      lore:
+        - '&7Abaixo estão as informações'
+        - '&7da sua venda:'
+        - ''
+        - ' &8▶ &7Itens: &f{items_amount}'
+        - ' &8▶ &7Lucro: {value}'
+        - ''
+        - '&7Clique para vender seus itens!'
+      slot: 11
+    2:
+      action: SHIFT_SELL
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZmMGE3OTVhNmUzNjc5OGI3YmFjNTUxM2Q0M2UzZTZjZTgxODJhZjc0NjI4ZWY4MDI3MzEzZGQxODE4Mzg3In19fQ==
+      name: '&aVender com SHIFT'
+      lore:
+        - '&7Ao ativar essa opção, você'
+        - '&7poderá vender seus itens apenas'
+        - '&7apertando SHIFT!'
+        - ''
+        - '&7Status: {shift_sell_status}'
+        - ''
+        - '&7Clique para &fativar/desativar&7!'
+      slot: 13
+    3:
+      action: AUTO_SELL
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWNiOGU3MjBhMDI3MjRiN2MzNDNmZGQ0NDc5MGZhYjRjMGQxZjE2YWFmODExMzgxOTJjNzBmODEyY2U0ZjYyMiJ9fX0=
+      name: '&aVender Automaticamente'
+      lore:
+        - '&7Ao ativar essa opção, seus itens'
+        - '&7serão vendidos automaticamente!'
+        - ''
+        - '&7Status: {auto_sell_status}'
+        - ''
+        - '{auto_sell_lore}'
+      slot: 15
+
+Lore-Filter:
+  locked: '&cEssa opção é exclusiva para jogadores VIP!'
+  unlocked: '&7Clique para &fativar/desativar&7!'

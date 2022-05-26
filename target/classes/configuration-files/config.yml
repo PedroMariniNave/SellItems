@@ -1,0 +1,50 @@
+MySQL:
+  enabled: false
+  host: 'localhost'
+  database: 'db'
+  username: 'user'
+  password: 'pass'
+  port: 3306
+
+Settings:
+  command: sellitems
+  aliases: [sell, vender, venda]
+  nothing-display: '&f-/-'
+  currency-separator: ' &8| '
+  automatic-sell:
+    permission: sell.auto
+    interval: 20 # ticks
+
+Status:
+  enabled: '&aAtivado'
+  disabled: '&cDesativado'
+
+Titles:
+  sold:
+    title: ''
+    subtitle: '&a+&2$&a{value}'
+  nothing:
+    title: ''
+    subtitle: '&cVocê não possui itens para vender!'
+
+Items:
+  DIAMOND:
+    values:
+      - 'coins,50'
+      - 'vipcoin,50,vipcoin.use'
+  IRON_INGOT:
+    values:
+      - 'coins,50'
+
+Number-Formatter:
+  - 'k'
+  - 'M'
+  - 'B'
+  - 'T'
+  - 'Q'
+  - 'QQ'
+  - 'S'
+  - 'SS'
+  - 'O'
+  - 'N'
+  - 'D'

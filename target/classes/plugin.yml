@@ -1,0 +1,6 @@
+name: SellItems
+description: Only a simple sell items plugin.
+version: 1.0
+author: zPedroo_
+main: com.zpedroo.sellitems.SellItems
+depend: [MultiEconomy]
